@@ -37,14 +37,14 @@ theme:
   logo: img/logo_small_white.png
   favicon: img/favicon.ico
 
-repo_url: https://github.com/Crill-IOS/Crill-IOS-Docs
+repo_url: https://github.com/Crill-IOS/Crill-IOS-Scripting
 repo_name: GitHub
 site_url: https://docs.crillios.com
 
 extra:
   social:
     - icon: material/github
-      link: https://github.com/Crill-IOS/Crill-IOS-Docs
+      link: https://github.com/Crill-IOS/Crill-IOS-Scripting
       name: GitHub Repo
     - icon: material/home
       link: https://crillios.com
