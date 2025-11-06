@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# Crill-IOS – VSCode Plugin für Cisco IOS Scripting (DIESE SEITE IST IN BEARBEITUNG)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Crill-IOS ist ein VS Code-Plugin auf Basis von Langium, das das Schreiben von Cisco IOS Konfigurationen und Skripten vereinfacht.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Erste Schritte
+- [Installation](./installation.md)
+- [Nutzung](./usage.md)
+- [Beispiele](./examples.md)
+- [FAQ](./faq.md)
