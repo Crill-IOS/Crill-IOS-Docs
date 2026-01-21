@@ -18,6 +18,7 @@ Crill-IOS ist eine VS Code-Erweiterung, die dich beim Schreiben von Cisco IOS Ko
 - **Nutzung & Features**: [Nutzung](./usage.md)
 - **Beispiele**: [Beispiele](./examples.md)
 - **FAQ**: [FAQ](./faq.md)
+- **Probleme lösen**: [Troubleshooting](./troubleshooting.md)
 
 ## Feedback & Hilfe
 - **Bugs/Feature Requests**: Bitte als Issue im GitHub-Repo melden: `https://github.com/Crill-IOS/Crill-IOS-Scripting/issues`

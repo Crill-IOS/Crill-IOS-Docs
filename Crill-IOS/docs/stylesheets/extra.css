@@ -122,12 +122,15 @@ div[class="md-header__source"] {
 a.md-header__button.md-icon[href="https://crillios.com"] {
   order: 2;
 }
-
-.md-header__option {
+a.md-header__button.md-icon[href="https://marketplace.visualstudio.com/items?itemName=Crill.crill-ios-scripting"] {
   order: 3;
 }
 
-.md-search {
+.md-header__option {
   order: 4;
+}
+
+.md-search {
+  order: 5;
   margin-left: 0;
 }
