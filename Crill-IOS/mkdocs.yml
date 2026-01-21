@@ -1,1 +1,57 @@
-site_name: My Docs
+site_name: Crill-IOS
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Nutzung: usage.md
+  - Beispiele: examples.md
+  - FAQ: faq.md
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - header.social
+    - content.code.copy
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Darkmode aktivieren
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Lightmode aktivieren
+  icon:
+    repo: material/github
+  logo: img/logo_small_white.png
+  favicon: img/favicon.ico
+
+repo_url: https://github.com/Crill-IOS/Crill-IOS-Scripting
+repo_name: GitHub
+site_url: https://docs.crillios.com
+
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/Crill-IOS/Crill-IOS-Scripting
+      name: GitHub Repo
+    - icon: material/home
+      link: https://crillios.com
+      name: Homepage
+  homepage_url: https://crillios.com
+  
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - js/header-home.js

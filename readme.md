@@ -12,3 +12,7 @@ First create a new folder and clone the repo Crill-IOS-Docs.
 # Run the local server
 - `cd Crill-IOS`
 - `mkdocs serve`
+
+# Deploy
+- `cd Crill-IOS`
+- `mkdocs gh-deploy`

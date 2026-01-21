@@ -1,0 +1,133 @@
+.md-tooltip {
+  transition-delay: 0s !important; /* remove default delay */
+  animation-duration: 0.1s !important; /* optional: make fade faster */
+}
+:root {
+  /* Primary/Accent match Website tokens */
+  --md-primary-fg-color: hsl(14 86% 58%);
+  --md-primary-fg-color--light: hsl(16 100% 66%);
+  --md-primary-fg-color--dark: hsl(12 80% 48%);
+  --md-accent-fg-color: hsl(16 100% 66%);
+
+  /* Foreground/Background */
+  --md-default-fg-color: hsl(216 19% 16%);
+  --md-default-bg-color: hsl(0 0% 100%);
+  --md-code-fg-color: hsl(216 19% 16%);
+  --md-code-bg-color: hsl(20 20% 95%);
+
+  /* Borders and subtle surfaces */
+  --md-typeset-a-color: hsl(14 86% 58%);
+  --md-typeset-mark-color: hsl(20 100% 96%);
+  --md-typeset-table-color: hsl(20 20% 90%);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: hsl(14 86% 58%);
+  --md-primary-fg-color--light: hsl(16 100% 66%);
+  --md-primary-fg-color--dark: hsl(12 80% 48%);
+  --md-accent-fg-color: hsl(16 100% 66%);
+
+  --md-default-fg-color: hsl(0 0% 95%);
+  --md-default-bg-color: hsl(216 19% 9%);
+  --md-code-fg-color: hsl(0 0% 95%);
+  --md-code-bg-color: hsl(216 19% 15%);
+
+  --md-typeset-a-color: hsl(16 100% 66%);
+  --md-typeset-mark-color: hsl(216 19% 15%);
+  --md-typeset-table-color: hsl(216 19% 20%);
+}
+
+/* Typography to match website */
+:root {
+  --md-text-font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --md-code-font: "JetBrains Mono", Consolas, Menlo, Monaco, "Liberation Mono", "Courier New", monospace;
+}
+
+.md-typeset {
+  font-family: var(--md-text-font);
+}
+
+code, pre, .md-typeset code, .md-typeset pre {
+  font-family: var(--md-code-font);
+}
+
+/* Subtle rounding similar to --radius: 0.5rem */
+.md-button, .md-typeset .admonition, .md-typeset .highlight, .md-search, .md-typeset table, .md-nav__link {
+  border-radius: 0.5rem;
+}
+
+/* Link hover closer to site style */
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+/* Elevation shadows inspired by site */
+.md-header, .md-footer, .md-search, .md-card {
+  box-shadow: 0 4px 20px -4px hsl(216 19% 16% / 0.10);
+}
+
+/* Primary buttons */
+.md-button--primary {
+  background: hsl(14 86% 58%);
+}
+.md-button--primary:hover {
+  background: hsl(12 80% 48%);
+}
+
+/* Admonitions accents */
+.md-typeset .admonition.note, .md-typeset details.note {
+  border-color: hsl(14 86% 58%);
+}
+
+/* Table zebra for readability */
+.md-typeset table:not([class]) tbody tr:nth-child(2n) {
+  background: hsl(20 20% 95%);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:nth-child(2n) {
+  background: hsl(216 19% 15%);
+}
+
+img[alt="Nutzungshilfe1"] {
+  width: 300px;
+}
+
+img[alt="Nutzungshilfe2"] {
+  width: 150px;
+}
+
+img[alt="Nutzungshilfe3"] {
+  width: 200px;
+}
+
+div[class="md-header__source"] {
+  width: 130px;
+}
+
+.md-header__button.md-logo img {
+  height: 2rem;
+  width: auto;
+}
+
+.md-header__inner {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.md-header__source {
+  order: 1;
+  margin-left: auto;
+}
+
+a.md-header__button.md-icon[href="https://crillios.com"] {
+  order: 2;
+}
+
+.md-header__option {
+  order: 3;
+}
+
+.md-search {
+  order: 4;
+  margin-left: 0;
+}
