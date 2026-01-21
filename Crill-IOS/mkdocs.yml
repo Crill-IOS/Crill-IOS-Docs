@@ -1,4 +1,4 @@
-site_name: Crill-IOS Dokumentation
+site_name: Crill-IOS
 nav:
   - Home: index.md
   - Installation: installation.md
@@ -23,14 +23,14 @@ theme:
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-night
+        icon: material/weather-sunny
         name: Darkmode aktivieren
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-sunny
+        icon: material/weather-night
         name: Lightmode aktivieren
   icon:
     repo: material/github

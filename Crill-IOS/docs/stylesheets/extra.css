@@ -1,3 +1,7 @@
+.md-tooltip {
+  transition-delay: 0s !important; /* remove default delay */
+  animation-duration: 0.1s !important; /* optional: make fade faster */
+}
 :root {
   /* Primary/Accent match Website tokens */
   --md-primary-fg-color: hsl(14 86% 58%);
@@ -94,4 +98,36 @@ img[alt="Nutzungshilfe2"] {
 
 img[alt="Nutzungshilfe3"] {
   width: 200px;
+}
+
+div[class="md-header__source"] {
+  width: 130px;
+}
+
+.md-header__button.md-logo img {
+  height: 2rem;
+  width: auto;
+}
+
+.md-header__inner {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.md-header__source {
+  order: 1;
+  margin-left: auto;
+}
+
+a.md-header__button.md-icon[href="https://crillios.com"] {
+  order: 2;
+}
+
+.md-header__option {
+  order: 3;
+}
+
+.md-search {
+  order: 4;
+  margin-left: 0;
 }
