@@ -5,6 +5,7 @@ nav:
   - Nutzung: usage.md
   - Beispiele: examples.md
   - FAQ: faq.md
+  - Troubleshooting: troubleshooting.md
 theme:
   name: material
   language: de
@@ -46,6 +47,9 @@ extra:
     - icon: material/github
       link: https://github.com/Crill-IOS/Crill-IOS-Scripting
       name: GitHub Repo
+    - icon: material/store
+      link: https://marketplace.visualstudio.com/items?itemName=Crill.crill-ios-scripting
+      name: VS Code Marketplace
     - icon: material/home
       link: https://crillios.com
       name: Homepage
